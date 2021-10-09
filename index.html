@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notas</title>
+    <link rel="stylesheet" type="text/css" href="assests/css/styles.css"/>
+</head>
+
+<body class="fondo">
+    <h1 class="title">Notas Colegio Mayor</h1>
+    <hr>
+    <br>
+
+    <div class="container">
+        <div class="subcontainer">
+            <form class="form">
+                <label for="student">Identificacion:</label>
+                <input id="studentId" type="number" max="9999999999" />
+                <br />
+                <br />
+                <label for="studentName">Nombre:</label>
+                <input id="studentName" type="text" max="50" />
+                <br />
+                <br />
+                <label for="note1">Nota 1:</label>
+                <input id="note1" type="number" min="0" max="5" step=".1"/>
+                <br />
+                <br />
+                <label for="note2">Nota 2:</label>
+                <input id="note2" type="number" min="0" max="5" step=".1"/>
+                <br />
+                <br />
+                <label for="note3">Nota 3:</label>
+                <input id="note3" type="number" min="0" max="5" step=".1"/>
+                <br />
+                <br />
+                <br />
+                <button class="button" id="saveDataBtn"></button>
+                <p>Guardar</p>
+            </form>
+        </div>
+    </div>
+
+    <br />
+    
+    <footer class="footer">
+        <hr />
+        <h3><a href="consultData.html">Ir a consultar | &copy; Jeisson Zambrano</a></h3>
+    </footer>
+
+    <script type="text/javascript" src="assests/js/index.js"></script>
+</body>
+
+</html>
